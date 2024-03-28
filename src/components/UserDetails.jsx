@@ -10,7 +10,7 @@ export default function UserDetails({ user }) {
         </div>
         <div className="space-y-2.5">
           <span className="relative text-[#E16259] text-3xl md:text-5xl font-semibold">
-            {`${name.title}. ${name.first} ${name.last}`} <span className="hidden sm:inline absolute bottom-1 left-0 w-full h-0.5 bg-[#E16259]" />
+            {`${name.title} ${name.first} ${name.last}`} <span className="hidden sm:inline absolute bottom-1 left-0 w-full h-0.5 bg-[#E16259]" />
           </span>
           <address className="flex-row">
             <div>
